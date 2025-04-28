@@ -137,7 +137,7 @@ main{
 
 .para{
     width: 100%;
-padding: 60px 10px;
+    padding: 60px 10px;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -162,7 +162,7 @@ padding: 60px 10px;
 
 
 .voyager{
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +172,7 @@ padding: 60px 10px;
 }
 
 .manger{
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +183,7 @@ padding: 60px 10px;
 
 
 .relaxer{
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,8 +209,7 @@ padding: 60px 10px;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* height: 200px; */
-    gap: 10px;
+    height: 150px;
     margin: 50px 0;
    
  
@@ -221,6 +220,7 @@ padding: 60px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
     /* height: 200px; */
   
  
@@ -229,7 +229,7 @@ padding: 60px 10px;
     display: flex;
     justify-content:center;
     align-items:center;
-    padding-right: -20px;
+    /* padding-right: -20px; */
     transform: rotate(90deg);
     transform-origin: center;
 }
@@ -251,7 +251,7 @@ padding: 60px 10px;
  .ils span { 
     color:black;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 0.03em;  
 
   }
