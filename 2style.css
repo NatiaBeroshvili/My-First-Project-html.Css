@@ -28,7 +28,7 @@ html{
 .myimg2{
 background-image: url(https://static.wixstatic.com/media/4d2d8fa0c42543a7b9a5ec9416597378.jpg/v1/fill/w_3760,h_2116,fp_0.50_0.50,q_90,enc_avif,quality_auto/4d2d8fa0c42543a7b9a5ec9416597378.jpg);
 width:100%; 
-height:100vh;
+height:70vh;
 background-size: cover;
 }
 
@@ -38,7 +38,7 @@ background-size: cover;
     justify-content: start;
     gap: 35px;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     border:1px solid rgba(246, 242, 242, 0.996) ;
     margin-bottom: -20px;
 
@@ -66,9 +66,9 @@ background-size: cover;
 
 .myimg3{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
-   background-image: url(https://static.wixstatic.com/media/38c4af340de54c78b4e1869be78ef1fd.jpg/v1/fill/w_3760,h_2116,fp_0.50_0.50,q_90,enc_avif,quality_auto/38c4af340de54c78b4e1869be78ef1fd.jpg);
+    background-image: url(https://static.wixstatic.com/media/38c4af340de54c78b4e1869be78ef1fd.jpg/v1/fill/w_3760,h_2116,fp_0.50_0.50,q_90,enc_avif,quality_auto/38c4af340de54c78b4e1869be78ef1fd.jpg);
 }
 
 
@@ -78,7 +78,7 @@ background-size: cover;
     justify-content: start;
     gap: 35px;
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     border:1px solid rgba(246, 242, 242, 0.996) ;
     margin-bottom: -20px;
 
