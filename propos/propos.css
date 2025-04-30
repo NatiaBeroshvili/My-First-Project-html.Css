@@ -28,7 +28,7 @@ header {
   gap: 25px;
 }
 .nav1 ul li a {
-  color: grey;
+  color: #696969;
   font-size: medium;
 }
 
@@ -46,25 +46,56 @@ header {
 }
 
 .propos {
-  background-color: yellow;
   width: 100%;
   height: 90vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
 }
 .propos .prode {
-  background-color: aqua;
   width: 50%;
-  height: 80vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
 }
-.propos .pict {
+.propos .prode .tx {
   width: 50%;
   height: 80vh;
   display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.propos .img {
-  width: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.propos .prode .tx h1 {
+  font-weight: lighter;
+  font-size: 36px;
+}
+.propos .prode .tx p {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: rgb(105, 105, 105);
+}
+
+.mail a {
+  color: rgb(15, 160, 218);
+}
+
+.pict {
+  display: flex;
+  align-items: end;
+  width: 50%;
+  height: 90vh;
+}
+.pict .img {
+  width: 472px;
+  height: 478px;
+  background-size: cover;
+  background-position: top;
   overflow: hidden;
   background-image: url(https://static.wixstatic.com/media/90cf860d8e3548fdb4808f676ee3e05d.jpg/v1/fill/w_828,h_872,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/90cf860d8e3548fdb4808f676ee3e05d.jpg);
 }/*# sourceMappingURL=propos.css.map */
