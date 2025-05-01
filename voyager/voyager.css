@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  background-color: #F2F2F2;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav1 {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav1 ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.nav1 ul li a {
+  color: #696969;
+  font-size: medium;
+}
+
+.logos {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.logos i {
+  color: grey;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.voyager {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.voyager .voy {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 35px;
+}
+.voyager .voy span {
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: rgb(105, 105, 105);
+}
+.voyager .voy h1 {
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+.firstcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.firstcard .myimg {
+  background-image: url(https://static.wixstatic.com/media/e3190f8f39f5445c8e5d4153ab1414aa.jpg/v1/fill/w_3760,h_2116,fp_0.50_0.50,q_90,enc_avif,quality_auto/e3190f8f39f5445c8e5d4153ab1414aa.jpg);
+  width: 60%;
+  height: 70vh;
+  background-size: cover;
+}
+.firstcard .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 35px;
+  width: 60%;
+  border: 1px solid rgba(246, 242, 242, 0.996);
+}
+.firstcard .text .bastext {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  gap: 10px;
+}
+.firstcard .text .bastext .creez a span {
+  color: black;
+  font-weight: 200;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstcard .text .bastext .sable a h2 {
+  font-family: "EB Garamond", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 24px;
+  font-style: normal;
+  color: black;
+}
+
+.administrateur {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin-left: 90px;
+}
+.administrateur span {
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.bastext :hover {
+  color: rgb(28, 172, 230);
+}
+
+.linepr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
+.linepr .ln {
+  width: 90%;
+  background-color: gray;
+  height: 1px;
+}
+
+.com {
+  width: 100%;
+  display: flex;
+}
+.com .leftsvg {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.com .leftsvg .comsvg {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  margin-left: 50px;
+}
+.com .leftsvg .comsvg .eye {
+  display: flex;
+  gap: 5px;
+}
+.com .leftsvg .comsvg .com2 {
+  display: flex;
+  gap: 5px;
+}
+.com .rightsvg {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 50%;
+  margin-right: 10px;
+}
+.com .rightsvg .coeur {
+  fill: transparent;
+  stroke: #e84a43;
+  stroke-width: 1.5px;
+  transition: fill 0.25s;
+}/*# sourceMappingURL=voyager.css.map */
