@@ -32,7 +32,7 @@ html{
     position:fixed ;
     top: 0px;
     left: 0;
-    background-color: yellow;
+    background-color:#2573DA;
     justify-content: center;
     flex-direction: column;
   
@@ -72,8 +72,9 @@ header{
 .nav1{
     width: 50%;
     display: flex; 
-    justify-content: end;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 ul{
     display: flex;
@@ -355,7 +356,7 @@ main{
     .firstcard{
         margin-top: 80px;
         width: 100%;
-        height:100vh;
+        /* height:100vh; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -438,7 +439,6 @@ main{
     flex-direction: column;
     margin-left: 50px;
     gap: 10px;
-    margin-bottom: -20px;
     
 }
 .bastext :hover{
@@ -466,7 +466,7 @@ main{
     display: flex;
     justify-content: start;
     gap: 20px;
-    margin-left: 50px;
+   
 }
 
 .eye{
@@ -481,7 +481,7 @@ main{
 .coeur{
     display: flex;
     gap: 3px;
-    margin-right: 10px;
+ 
 }
 
 .coeur{ fill: transparent;
@@ -491,7 +491,7 @@ main{
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////// */
 
-    @media screen and (max-width:900px){
+    @media screen and (max-width:600px){
         .lfb{
             display: flex;
         }
@@ -502,7 +502,56 @@ main{
         .logosPar{
             
             gap:25px;}
+          
     }
     
 
+@media  (max-width:900px){ 
+    main{
+        width: 900px;
+        display: flex;
+        background-position: center;
+    }
+
+    .photos{
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .para{
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+  .logosPar{
+    width: 900px;
+  }
+}
+
+@media ( max-width:1000px ) {
+    .firstcard {
+        width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+      
+    }
+
+    .myimg{
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+    }
+    
+    .text{
+       height: 300px; 
+    }
+}
 

@@ -6,6 +6,7 @@
 }
 
 
+
 header{
     background-color: #F2F2F2;
     display: flex;
@@ -81,11 +82,17 @@ header{
     }
 }
 
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 .firstcard{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
     .myimg{
         background-image: url(https://static.wixstatic.com/media/e3190f8f39f5445c8e5d4153ab1414aa.jpg/v1/fill/w_3760,h_2116,fp_0.50_0.50,q_90,enc_avif,quality_auto/e3190f8f39f5445c8e5d4153ab1414aa.jpg);
         width:60%;
@@ -174,6 +181,7 @@ header{
 
 .com{
     width: 100%;
+    height: 70px;
     display: flex;
     
     .leftsvg{
@@ -187,7 +195,7 @@ header{
             display: flex;
             justify-content: start;
             gap: 20px;
-            margin-left: 50px;
+            margin-left: 60px;
 
             .eye{
                 display: flex;
@@ -209,7 +217,7 @@ header{
     align-items: center;
     justify-content: end;
     width: 50%;
-    margin-right: 10px;
+    margin-right: 35px;
     .coeur{
         fill: transparent;
         stroke: #e84a43;
@@ -217,4 +225,20 @@ header{
         transition: fill .25s; 
     }
 }
+}
+
+
+    .myimg2{
+        background-image: url(https://static.wixstatic.com/media/f969ea5e4ea64a66af55f3cb06895101.jpg/v1/fill/w_3760,h_2116,fp_0.50_0.50,q_90,enc_avif,quality_auto/f969ea5e4ea64a66af55f3cb06895101.jpg);
+        width:60%;
+        height: 70vh;
+        background-size: cover;
+       
+    }
+
+.myimg3{
+    width:60%;
+    height: 70vh;
+    background-size: cover;
+    background-image: url(https://static.wixstatic.com/media/ae5901bd4fda41009c4cc4a19bb70d05.jpg/v1/fill/w_2999,h_1999,al_c,q_90/ae5901bd4fda41009c4cc4a19bb70d05.webp);
 }
