@@ -1,0 +1,58 @@
+@media (max-width: 900px) {
+  header {
+    width: 900px;
+    display: flex;
+  }
+  .myimg {
+    background-size: cover;
+    background-position: center;
+  }
+  .myimg2 {
+    background-size: cover;
+    background-position: center;
+  }
+  .myimg3 {
+    background-size: cover;
+    background-position: left;
+  }
+}
+@media (max-width: 600px) {
+  .firstcard .myimg {
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+  .firstcard .myimg2 {
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+  .firstcard .myimg3 {
+    width: 400px;
+    background-size: cover;
+    background-position: left;
+  }
+  .firstcard .text {
+    width: 400px;
+  }
+}
+@media (max-width: 430px) {
+  .firstcard .myimg {
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  .firstcard .myimg2 {
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  .firstcard .myimg3 {
+    width: 300px;
+    background-size: cover;
+    background-position: left;
+  }
+  .firstcard .text {
+    width: 300px;
+  }
+}/*# sourceMappingURL=relaxrespo.css.map */

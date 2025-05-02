@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+  header {
+    width: 900px;
+    display: flex;
+  }
+  .carvideo {
+    width: 900px;
+    display: flex;
+  }
+  .videos .vid {
+    width: 900px;
+    display: flex;
+  }
+  .myvideo {
+    width: 900px;
+  }
+}/*# sourceMappingURL=videoresp.css.map */

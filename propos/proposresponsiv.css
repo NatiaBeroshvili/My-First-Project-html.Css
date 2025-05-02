@@ -1,0 +1,65 @@
+@media (max-width: 900px) {
+  header {
+    width: 900px;
+    display: flex;
+    background-position: center;
+  }
+}
+@media (max-width: 1000px) {
+  .propos {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .propos .prode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .propos .prode .tx {
+    width: 500px;
+  }
+  .pict {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img {
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    width: 900px;
+    display: flex;
+    background-position: center;
+  }
+  .lfb {
+    display: flex;
+  }
+  .nav1 {
+    display: none;
+  }
+  .logosPar {
+    gap: 25px;
+  }
+}
+.propos .prode {
+  margin-top: -150px;
+}
+.propos .prode .tx {
+  width: 250px;
+}
+
+.propos .pict .img {
+  width: 350px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=proposresponsiv.css.map */

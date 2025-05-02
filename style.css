@@ -30,8 +30,8 @@ html{
     width: 100%;
     height: 100vh;
     position:fixed ;
-    top: 0px;
-    left: 0;
+    top: 20px;
+    left: 20px;
     background-color:#2573DA;
     justify-content: center;
     flex-direction: column;
@@ -494,7 +494,11 @@ main{
     @media screen and (max-width:600px){
         .lfb{
             display: flex;
+            width: 100%;
+            height: 100vh;
+           
         }
+
         
         .nav1{
             display: none;
@@ -547,7 +551,7 @@ main{
     .myimg{
         background-size: cover;
         background-position: center;
-        justify-content: center;
+      
     }
     
     .text{
