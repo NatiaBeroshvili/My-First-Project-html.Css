@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: pink;
+  width: 100%;
+}
+footer .bleuicons {
+  width: 100%;
+  height: 80px;
+  background-color: #2573DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .bleuicons .icons {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .bleuicons .icons p {
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+footer .bleuicons .icons div {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+footer .bleuicons .icons div i {
+  color: white;
+  font-size: 22px;
+}
+
+.parfot {
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.parfot .footfot1 {
+  background-size: cover;
+  background-image: url(https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Traveller%20Blog/01.jpg);
+}
+.parfot .footfot2 {
+  background-size: cover;
+  background-image: url(https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Traveller%20Blog/02.jpg);
+}
+.parfot .footfot3 {
+  background-size: cover;
+  background-image: url(https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Traveller%20Blog/03.jpg);
+}
+.parfot .footfot4 {
+  background-size: cover;
+  background-image: url(https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Traveller%20Blog/04.jpg);
+}
+.parfot .footfot5 {
+  background-size: cover;
+  background-image: url(https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Traveller%20Blog/05.jpg);
+}
+
+.gray {
+  background-color: #696969;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.gray .btnpar {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gray .btnpar button {
+  padding: 10px 40px;
+  background-color: white;
+  color: black;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.gray2 {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.gray2 .foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  background-color: green;
+}
+.gray2 .foto .pic {
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-image: url(https://static.wixstatic.com/media/90cf860d8e3548fdb4808f676ee3e05d.jpg/v1/fill/w_280,h_282,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/90cf860d8e3548fdb4808f676ee3e05d.jpg);
+}
+.gray2 .foto .txxx {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  background-color: aqua;
+}
+.gray2 .news {
+  width: 50%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.gray2 .news .form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.gray2 .news .form h3 {
+  font-family: "EB Garamond", serif;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  font-weight: 100;
+}
+.gray2 .news .form .p {
+  color: white;
+}
+.gray2 .news .form .inpp {
+  height: 30px;
+  border-color: white;
+  background-color: #696969;
+  border-color: white;
+  border-radius: 2px;
+}
+.gray2 .news button {
+  padding: 10px 30px;
+  color: white;
+  background-color: #2573DA;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=footer.css.map */
