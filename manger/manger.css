@@ -200,4 +200,9 @@ header {
   height: 70vh;
   background-size: cover;
   background-image: url(https://static.wixstatic.com/media/a27d24_cff310d5731843b887c77efa21b68506~mv2_d_6664_4623_s_4_2.jpg/v1/fill/w_3760,h_2116,fp_0.50_0.50,q_90,enc_avif,quality_auto/a27d24_cff310d5731843b887c77efa21b68506~mv2_d_6664_4623_s_4_2.jpg);
+}
+
+.foto .tex .foota {
+  color: #7AA9E6;
+  text-decoration: underline;
 }/*# sourceMappingURL=manger.css.map */

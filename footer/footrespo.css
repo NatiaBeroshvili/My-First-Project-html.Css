@@ -3,13 +3,13 @@
     display: flex;
     flex-direction: column;
   }
-  .ic2 {
-    right: -20px;
-  }
 }
 @media (max-width: 1000px) {
+  footer {
+    width: 600px;
+  }
   .parfot {
-    display: flex;
+    width: 50%;
     flex-wrap: wrap;
   }
 }/*# sourceMappingURL=footrespo.css.map */
