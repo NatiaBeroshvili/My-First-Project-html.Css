@@ -68,13 +68,13 @@ footer .bleuicons .icons div i {
 .gray {
   background-color: #696969;
   width: 100%;
-  height: 80vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
 }
 .gray .btnpar {
   width: 100%;
-  height: 20vh;
+  margin-top: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +88,6 @@ footer .bleuicons .icons div i {
 }
 
 .gray2 {
-  background-color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,37 +96,42 @@ footer .bleuicons .icons div i {
 }
 .gray2 .foto {
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
   height: 70vh;
-  background-color: rgb(152, 148, 215);
+  gap: 10px;
 }
 .gray2 .foto .tex {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  width: 25%;
-  gap: 25px;
-  background-color: greenyellow;
-  height: 70vh;
+  justify-content: center;
+  align-items: start;
+  width: 40%;
+  gap: 30px;
+  height: 400px;
+}
+.gray2 .foto .tex h3 {
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  color: white;
+}
+.gray2 .foto .tex span {
+  color: white;
+  line-height: 1.5em;
+  font-size: 15px;
 }
 .gray2 .foto .pi {
   width: 25%;
-  background-size: cover;
-  background-image: url(https://static.wixstatic.com/media/90cf860d8e3548fdb4808f676ee3e05d.jpg/v1/fill/w_280,h_282,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/90cf860d8e3548fdb4808f676ee3e05d.jpg);
-}
-.gray2 .foto .pi .myimgg {
-  background-size: cover;
-  background-image: url(https://static.wixstatic.com/media/90cf860d8e3548fdb4808f676ee3e05d.jpg/v1/fill/w_280,h_282,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/90cf860d8e3548fdb4808f676ee3e05d.jpg);
 }
 .gray2 .news {
-  width: 50%;
+  width: 40%;
   height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: center;
+  align-items: start;
 }
 .gray2 .news .form {
   display: flex;
@@ -157,4 +161,28 @@ footer .bleuicons .icons div i {
   background-color: #2573DA;
   border: none;
   cursor: pointer;
+}
+.gray2 .ic2 {
+  position: absolute;
+  display: flex;
+  gap: 15px;
+  bottom: -100px;
+  right: 250px;
+  color: white;
+  font-size: 23px;
+}
+
+.smalltex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  gap: 30px;
+  margin: 0 auto;
+}
+.smalltex span {
+  color: white;
+}
+.smalltex p {
+  color: white;
 }/*# sourceMappingURL=footer.css.map */
