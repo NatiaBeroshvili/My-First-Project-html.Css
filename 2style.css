@@ -13,7 +13,6 @@ html{
 .card2{
     margin-top: 80px;
     width: 100%;
-    /* height:100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,59 +205,3 @@ background-size: cover;
     transition: fill .25s;
 }
 
-
-
-@media  ( max-width:1000px ) {
-    .card2{
-        width: 900px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-       
-    }
-
-    .header{
-       flex-direction: column;
-       text-align: center !important;
-    }
-
-  .logos{
-    display: flex;
-    flex-wrap: wrap;
-  }
-        
-    }
-
-    .myimg2{
-        background-size: cover;
-        background-position: center;
-        justify-content: center;
-    }
-    
-    .text2{
-       height: 300px; 
-    }
-
-
-
-@media  ( max-width:1000px ) {
-    .card3{
-        width: 900px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-       
-    }
-
-    .myimg3{
-        background-size: cover;
-        background-position: center;
-        justify-content: center;
-    }
-    
-    .text3{
-       height: 300px; 
-    }
-}

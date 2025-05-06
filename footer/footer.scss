@@ -4,12 +4,9 @@
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 footer{
-  margin-top: 80px;
+
+     margin-top: 80px;
     width: 100%;
     height: 100vh;
 
@@ -83,9 +80,25 @@ div {
     .gray{
         background-color: #696969;
         width: 100%;
-        height: 95vh;
+        // height: 80vh;
         display: flex;
         flex-direction: column;
+        
+        .btnn{
+            border: none;
+            background-color: #696969;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            cursor: pointer;
+        }
+        
+        .fl{
+            width: 20px;
+            height: 20px;
+            transform: rotate(180deg);
+            fill:#87B0E6;
+        }
       
         .btnpar{
             width: 100%;
@@ -104,24 +117,6 @@ div {
         }
 
         
-button{
-    border: none;
-    background-color: #696969;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-    cursor: pointer;
-}
-
-.fl{
-    width: 20px;
-    height: 20px;
-    transform: rotate(180deg);
-    fill:#87B0E6;
-}
-
-
-        
     }
 
 
@@ -133,7 +128,7 @@ button{
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 70vh;
+        // height: 70vh;
 
       
 .foto{
@@ -141,7 +136,7 @@ button{
    justify-content: center;
    align-items: center;
    width:70%;
-   height: 70vh;
+//    height: 70vh;
    gap: 10px;
   
   .tex{
@@ -183,7 +178,7 @@ button{
         
         .news{
             width:40%;
-            height: 30vh;
+            // height: 30vh;
             display: flex;
             flex-direction: column;
             justify-content: start;
@@ -205,6 +200,7 @@ button{
                     color: white;
                 }
                .inpp{
+               background-color: rgb(4, 255, 0);
                height:30px;
                border-color: white;
                background-color:  #696969;
@@ -229,9 +225,8 @@ button{
             }
 
             .ic2{
-
                 width: 56%;
-                height: 100vh;
+                height: 50px;
                 display: flex;
                 justify-content:end;
                 align-items: end;
@@ -263,5 +258,5 @@ button{
                 color: white;
             }
  
-
+             
         }
