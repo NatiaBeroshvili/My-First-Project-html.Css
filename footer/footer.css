@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 footer {
   margin-top: 80px;
   width: 100%;
@@ -85,6 +89,20 @@ footer .bleuicons .icons div i {
   color: black;
   border-width: 1px;
   cursor: pointer;
+}
+.gray button {
+  border: none;
+  background-color: #696969;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.gray .fl {
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+  fill: #87B0E6;
 }
 
 .gray2 {

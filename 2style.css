@@ -218,6 +218,18 @@ background-size: cover;
        
     }
 
+    .header{
+       flex-direction: column;
+       text-align: center !important;
+    }
+
+  .logos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+        
+    }
+
     .myimg2{
         background-size: cover;
         background-position: center;
@@ -227,7 +239,7 @@ background-size: cover;
     .text2{
        height: 300px; 
     }
-}
+
 
 
 @media  ( max-width:1000px ) {

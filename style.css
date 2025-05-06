@@ -75,9 +75,9 @@ header{
 }
 .nav1{
     width: 50%;
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     
 }
 ul{
@@ -204,8 +204,9 @@ main{
     background-image: url(https://static.wixstatic.com/media/5bfb6f_c667d0c9bd634b1aa2b29311795f3c51.jpg/v1/fill/w_314,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5bfb6f_c667d0c9bd634b1aa2b29311795f3c51.jpg);
 }
 
-.photos button{
+.photos button {
    color: rgb(37,115,218);
+   background-color: white;
    font-size: 18px;
    line-height: 1.4em;
    font-family: 'Times New Roman', Times, serif;
@@ -500,3 +501,22 @@ main{
 
 }
 
+button{
+    border: none;
+    background-color: #696969;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.fl{
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+    fill:#87B0E6;
+}
+
+.foota{
+    color: #87B0E6;
+}

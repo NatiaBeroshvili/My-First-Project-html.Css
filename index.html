@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="2style.css">
     <link rel="stylesheet" href="./footer/footer.css">
-    <link rel="stylesheet" href="./propos/propos.css">
+    <!-- <link rel="stylesheet" href="./footer/footrespo.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -37,14 +37,20 @@
 
 </head>
 <body>
-
-
-
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("scrollToTop").addEventListener("click", function() {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+        });
+    </script>
+    
+    
     
         <header>
 
-                 <input type="checkbox" name="" id="check">
-                 <label for="check" class="lfb">
+        <input type="checkbox" name="" id="check">
+        <label for="check" class="lfb">
                  <div class="burger">
                 
                       <div class="burgerline line1"></div>
@@ -119,7 +125,6 @@
          </div>  
    
 
-<!-- ///////////////////// ახალი -->
 
 
  <div class="logosPar">
@@ -357,8 +362,8 @@
 
 </section>
  
-
-<!-- //////////////////////////////////////////////////////////////////////////////////////////// footer -->
+<!-- 
+//////////////////////////////////////////////////////////////////////////////////////////// footer -->
 
 <footer>
     
@@ -448,8 +453,20 @@
             <p>© 2035 par Blog Voyageur. Créé avec Wix.com</p>
     
         </div>
+       
+    
+
+
+        <button id="scrollToTop">
+            <svg preserveAspectRatio="xMidYMid meet" data-bbox="6.443 47.497 187.114 105.008" xmlns="http://www.w3.org/2000/svg" viewBox="6.443 47.497 187.114 105.008" role="presentation" aria-hidden="true" class="fl">
+                <g>
+                    <path d="M174.476 51.261l-74.704 74.193L25.578 50.75c-4.287-4.316-11.566-4.341-15.882-.054s-4.341 11.565-.055 15.882l82.107 82.673c4.287 4.316 11.566 4.341 15.882.055l82.673-82.107c4.316-4.287 4.341-11.566.055-15.882s-11.235-4.342-15.882-.056z"></path>
+                </g>
+            </svg>
+        </button>
     </div>
     
+   
         </footer>
         
 
